@@ -7,7 +7,47 @@ function network_install_tasks($install_state) {
   return array(
     // Just a hidden task callback.
     'network_profile_setup' => array(),
+    'network_block_setup' => array(),
   );
+}
+
+/**
+ * Installer task callback.
+ */
+function network_block_setup() {
+
+  $default_theme = 'omega_network';
+  $admin_theme = 'seven';
+
+  $values = array(
+    array(
+      'module' => 'simplenews',
+      'delta' => 'Newsletter: Multi Subscription',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_second',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'club_attendance',
+      'delta' => 'Attendance',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
 }
 
 /**
