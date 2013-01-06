@@ -220,10 +220,10 @@ projects[token][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 projects[views_php][subdir] = "contrib"
 
-projects[omega_club][download][type] = "git"
-projects[omega_club][download][url] = "https://github.com/dwork/omega_club.git"
-projects[omega_club][subdir] = "contrib"
-projects[omega_club][type] = "theme"
+projects[omega_network][download][type] = "git"
+projects[omega_network][download][url] = "https://github.com/dwork/omega_network.git"
+projects[omega_network][subdir] = "contrib"
+projects[omega_network][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
