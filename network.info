@@ -1,6 +1,6 @@
-name = rotary
+name = network
 core = 7.x
-description =  Rotary distribution
+description =  Network distribution
 
 ; Core
 dependencies[] = book
