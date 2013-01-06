@@ -69,6 +69,12 @@ function network_profile_setup() {
 	_create_taxonomy_term('Inactive', 'member_status');
 	_create_taxonomy_term('Former Member', 'member_status');
 	_create_taxonomy_term('Substitute', 'member_status');
+
+	// attendance 
+	_create_taxonomy_term_custom('Absent', 'attendance', 'Absent');
+	_create_taxonomy_term_custom('Excused', 'attendance', 'Do Not Count');
+	_create_taxonomy_term_custom('Makeup', 'attendance', 'Makeup');
+	_create_taxonomy_term_custom('Regular Meeting', 'attendance', 'Present');
 	
 	// phone/address locations
 	_create_taxonomy_term('Billing', 'location');
@@ -131,3 +137,21 @@ function _create_taxonomy_term($name,$machine_name) {
   return $term->tid;
 }
 
+/*
+ * Create taxonomy terms give machine name ($mac)
+ */
+function _create_taxonomy_term_custom($name,$machine_name,$statistic) {
+  $voc = taxonomy_vocabulary_machine_name_load($machine_name);
+  $term = new stdClass();
+  $term->name = $name;
+  if (isset($statistic)) {
+    $term->statistic['und'][0]['value'] = $statistic;
+  }
+  if (isset($voc)) {
+        $term->vid = $voc->vid;
+  } else {
+        $term->vid = 1;
+  }
+  taxonomy_term_save($term);
+  return $term->tid;
+}
