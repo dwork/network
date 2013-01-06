@@ -24,6 +24,12 @@ function network_profile_setup() {
 	variable_set('smtp_fromname','Networking');
 	variable_set('smtp_from','aegir@aegir.earthclick.net');
 
+	// member status
+	_create_taxonomy_term('Active', 'member_status');
+	_create_taxonomy_term('Inactive', 'member_status');
+	_create_taxonomy_term('Former Member', 'member_status');
+	_create_taxonomy_term('Substitute', 'member_status');
+	
 	// phone/address locations
 	_create_taxonomy_term('Billing', 'location');
 	_create_taxonomy_term('Home', 'location');
