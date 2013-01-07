@@ -152,4 +152,4 @@ function _create_taxonomy_term_custom($name,$machine_name,$statistic) {
   }
   taxonomy_term_save($term);
   return $term->tid;
-
+}
