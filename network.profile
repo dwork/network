@@ -144,9 +144,7 @@ function _create_taxonomy_term_custom($name,$machine_name,$statistic) {
   $voc = taxonomy_vocabulary_machine_name_load($machine_name);
   $term = new stdClass();
   $term->name = $name;
-  if (isset($statistic)) {
-    $term->statistic['und'][0]['value'] = $statistic;
-  }
+  $term->statistic['und'][0]['value'] = $statistic;
   if (isset($voc)) {
         $term->vid = $voc->vid;
   } else {
@@ -154,4 +152,4 @@ function _create_taxonomy_term_custom($name,$machine_name,$statistic) {
   }
   taxonomy_term_save($term);
   return $term->tid;
-}
+

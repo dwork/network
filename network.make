@@ -198,6 +198,11 @@ projects[club_networking][download][url] = "https://github.com/dwork/club_networ
 projects[club_networking][subdir] = "contrib"
 projects[club_networking][type] = "module"
 
+projects[club_views][download][type] = "git"
+projects[club_views][download][url] = "https://github.com/dwork/club_views.git"
+projects[club_views][subdir] = "contrib"
+projects[club_views][type] = "module"
+
 projects[club_newsletter][download][type] = "git"
 projects[club_newsletter][download][url] = "https://github.com/dwork/club_newsletter.git"
 projects[club_newsletter][subdir] = "contrib"

@@ -81,5 +81,6 @@ dependencies[] = club_attendance
 dependencies[] = club_events
 dependencies[] = club_newsletter
 dependencies[] = club_networking
+dependencies[] = club_views
 dependencies[] = youtube_field
 dependencies[] = image_gallery
