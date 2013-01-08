@@ -50,6 +50,7 @@ dependencies[] = image
 dependencies[] = libraries
 dependencies[] = logintoboggan
 dependencies[] = nice_menus
+dependencies[] = node_clone
 dependencies[] = node_reference
 dependencies[] = nodereference_url
 ; dependencies[] = markdown

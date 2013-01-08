@@ -168,6 +168,9 @@ projects[registration][subdir] = "contrib"
 projects[registration_views][version] = "1.0"
 projects[registration_views][subdir] = "contrib"
 
+projects[node_clone][version] = "1.0-rc1"
+projects[node_clone][subdir] = "contrib"
+
 projects[nodereference_url][version] = "1.12"
 projects[nodereference_url][subdir] = "contrib"
 
