@@ -96,7 +96,7 @@ projects[editablefields][subdir] = "contrib"
 projects[email][version] = "1.2"
 projects[email][subdir] = "contrib"
 
-projects[entity][version] = "1.0-rc3"
+projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.0"
