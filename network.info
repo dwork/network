@@ -34,6 +34,8 @@ dependencies[] = admin_menu
 dependencies[] = auto_nodetitle
 dependencies[] = boxes
 dependencies[] = calendar
+; note - clone is in my git repository, but is a "copy" of node_clone
+dependencies[] = clone
 ; dependencies[] = coder
 dependencies[] = context
 dependencies[] = context_ui
@@ -51,7 +53,6 @@ dependencies[] = image
 dependencies[] = libraries
 dependencies[] = logintoboggan
 dependencies[] = nice_menus
-dependencies[] = node_clone
 dependencies[] = node_reference
 dependencies[] = nodereference_url
 ; dependencies[] = markdown

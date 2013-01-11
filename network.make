@@ -155,6 +155,12 @@ projects[logintoboggan][subdir] = "contrib"
 projects[nice_menus][version] = "2.1"
 projects[nice_menus][subdir] = "contrib"
 
+; copy of "node_clone", due to naming inconsistency
+projects[clone][download][type] = "git"
+projects[clone][download][url] = "https://github.com/dwork/clone.git"
+projects[clone][subdir] = "contrib"
+projects[clone][type] = "module"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
@@ -172,9 +178,6 @@ projects[registration][subdir] = "contrib"
 
 projects[registration_views][version] = "1.0"
 projects[registration_views][subdir] = "contrib"
-
-projects[node_clone][version] = "1.0-rc1"
-projects[node_clone][subdir] = "contrib"
 
 projects[nodereference_url][version] = "1.12"
 projects[nodereference_url][subdir] = "contrib"
