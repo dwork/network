@@ -60,6 +60,9 @@ projects[link][version] = 1.0
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
+projects[auto_nodetitle][subdir] = contrib
+projects[auto_nodetitle][version] = 1.0
+
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0
 
