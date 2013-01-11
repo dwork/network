@@ -16,7 +16,7 @@ function network_install_tasks($install_state) {
  */
 function network_block_setup() {
 
-  $default_theme = 'omega_network';
+  $default_theme = 'professional_theme';
   $admin_theme = 'seven';
 
   $values = array(
@@ -75,6 +75,7 @@ function network_profile_setup() {
 	_create_taxonomy_term_custom('Excused', 'attendance', 'Do Not Count');
 	_create_taxonomy_term_custom('Makeup', 'attendance', 'Makeup');
 	_create_taxonomy_term_custom('Regular Meeting', 'attendance', 'Present');
+	_create_taxonomy_term_custom('Substitute', 'attendance', 'Present');
 	
 	// phone/address locations
 	_create_taxonomy_term('Billing', 'location');
