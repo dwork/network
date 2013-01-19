@@ -185,13 +185,6 @@ projects[registration_views][subdir] = "contrib"
 projects[nodereference_url][version] = "1.12"
 projects[nodereference_url][subdir] = "contrib"
 
-projects[views_calc][version] = "1.0"
-projects[views_calc][subdir] = "contrib"
-
-; Fixes invalid field errors in views_calc
-; http://drupal.org/node/1567108
-projects[views_calc][patch][684554] = http://drupal.org/files/views_calc_0.patch
-
 ; Please fill the following out. Type may be one of get, g://github.com/phayes/geoPHP.gitt, bzr or svn,
 ; and url is the url of the download.
 projects[rotary_projects_membership][download][type] = "git"
