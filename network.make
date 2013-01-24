@@ -119,6 +119,9 @@ projects[eva][subdir] = "contrib"
 projects[fancy_login][version] = "1.0-beta2"
 projects[fancy_login][subdir] = "contrib"
 
+projects[features_extra][version] = "1.0-alpha1"
+projects[features_extra][subdir] = "contrib"
+
 projects[field_permissions][version] = "1.0-beta2"
 projects[field_permissions][subdir] = "contrib"
 
@@ -196,6 +199,11 @@ projects[club_base][download][type] = "git"
 projects[club_base][download][url] = "https://github.com/dwork/club_base.git"
 projects[club_base][subdir] = "contrib"
 projects[club_base][type] = "module"
+
+projects[club_dues][download][type] = "git"
+projects[club_dues][download][url] = "https://github.com/dwork/club_dues.git"
+projects[club_dues][subdir] = "contrib"
+projects[club_dues][type] = "module"
 
 projects[club_events][download][type] = "git"
 projects[club_events][download][url] = "https://github.com/dwork/club_events.git"
