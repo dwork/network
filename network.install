@@ -287,11 +287,11 @@ theme_disable(array('bartik'));
 
   // Default "Basic page" to not be promoted and have comments disabled.
   variable_set('node_options_page', array('status'));
-//  variable_set('comment_page', COMMENT_NODE_HIDDEN);
+  variable_set('comment_page', COMMENT_NODE_HIDDEN);
 
   // Committee page to not be promoted and have comments disabled.
   variable_set('node_options_committee', array('status','promote' => FALSE));
-//  variable_set('comment_committee', COMMENT_NODE_HIDDEN);
+  variable_set('comment_committee', COMMENT_NODE_HIDDEN);
   variable_set('node_submitted_committee', FALSE);
 
   // Don't display date and author information for "Basic page" nodes by default.
