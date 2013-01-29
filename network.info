@@ -47,7 +47,6 @@ dependencies[] = entityreference
 ; dependencies[] = eva
 dependencies[] = fancy_login
 dependencies[] = features
-dependencies[] = features_extra
 dependencies[] = fe_block
 ; dependencies[] = hierarchical_select
 ; dependencies[] = hs_taxonomy
