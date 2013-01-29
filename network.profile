@@ -89,6 +89,14 @@ function network_profile_setup() {
 	_create_taxonomy_term('Treasurer', 'officers');
 	_create_taxonomy_term('Sergeant at Arms', 'officers');
 
+    	// board members
+	_create_taxonomy_term('President', 'board');
+	_create_taxonomy_term('Vice President', 'board');
+	_create_taxonomy_term('Secretary', 'board');
+	_create_taxonomy_term('Treasurer', 'board');
+	_create_taxonomy_term('Member at Large (1)', 'board');
+	_create_taxonomy_term('Member at Large (2)', 'board');
+
     	// Member Title
 	_create_taxonomy_term('Miss', 'title');
 	_create_taxonomy_term('Mr', 'title');
