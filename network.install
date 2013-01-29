@@ -24,7 +24,7 @@ function network_install() {
 // Any themes without keys here will get numeric keys and so will be enabled,
 // but not placed into variables.
 $enable = array(
-  'theme_default' => 'professional_theme',
+  'theme_default' => 'omega_network',
   'admin_theme' => 'seven',
 );
 theme_enable($enable);
@@ -95,7 +95,7 @@ theme_disable(array('bartik'));
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'professional_theme');
+  $default_theme = variable_get('theme_default', 'omega_network');
   $admin_theme = 'seven';
   $blocks = array(
     array(

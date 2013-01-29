@@ -16,7 +16,7 @@ function network_install_tasks($install_state) {
  */
 function network_block_setup() {
 
-  $default_theme = 'professional_theme';
+  $default_theme = 'omega_network';
   $admin_theme = 'seven';
 
   $values = array(

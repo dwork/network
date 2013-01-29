@@ -11,8 +11,8 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.
 projects[tao][subdir] = contrib
 projects[rubik][subdir] = contrib
 projects[mayo][subdir] = contrib
-projects[professional_theme][subdir] = contrib
-projects[professional_theme][type] = theme
+; projects[professional_theme][subdir] = contrib
+; projects[professional_theme][type] = theme
 
 # Override
 projects[features][subdir] = contrib
