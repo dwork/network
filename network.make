@@ -43,8 +43,8 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 ;  Simplenews newsletter
-; projects[simplenews][subdir] = contrib
-; projects[simplenews][version] =  "1.0"
+projects[simplenews][subdir] = contrib
+projects[simplenews][version] =  "1.0"
 
 ;  Rules 
 projects[rules][subdir] = contrib
@@ -119,8 +119,8 @@ projects[eva][subdir] = "contrib"
 projects[fancy_login][version] = "1.0-beta2"
 projects[fancy_login][subdir] = "contrib"
 
-projects[features_extra][version] = "1.0-alpha1"
-projects[features_extra][subdir] = "contrib"
+; projects[features_extra][version] = "1.0-alpha1"
+; projects[features_extra][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.0-beta2"
 projects[field_permissions][subdir] = "contrib"
@@ -225,10 +225,10 @@ projects[club_views][download][url] = "https://github.com/dwork/club_views.git"
 projects[club_views][subdir] = "contrib"
 projects[club_views][type] = "module"
 
-; projects[club_newsletter][download][type] = "git"
-; projects[club_newsletter][download][url] = "https://github.com/dwork/club_newsletter.git"
-; projects[club_newsletter][subdir] = "contrib"
-; projects[club_newsletter][type] = "module"
+projects[club_newsletter][download][type] = "git"
+projects[club_newsletter][download][url] = "https://github.com/dwork/club_newsletter.git"
+projects[club_newsletter][subdir] = "contrib"
+projects[club_newsletter][type] = "module"
 
 projects[youtube_field][download][type] = "git"
 projects[youtube_field][download][url] = "https://github.com/dwork/youtube_field.git"
