@@ -110,6 +110,10 @@ function network_profile_setup() {
         _create_taxonomy_term('Social', 'event_type');
         _create_taxonomy_term('Board Meeting', 'event_type');
         _create_taxonomy_term('Executive Board Meeting', 'event_type');
+  
+        // Dues Application Rule
+        _create_taxonomy_term('Anniversary', 'dues_application_rule');
+        _create_taxonomy_term('Policy Date', 'dues_application_rule');
 
 }
 /*
