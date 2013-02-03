@@ -106,7 +106,7 @@ function network_profile_setup() {
   
         // Event Type
         _create_taxonomy_term('Meeting', 'event_type');
-        _create_taxonomy_term('Busines Faire', 'event_type');
+        _create_taxonomy_term('Business Faire', 'event_type');
         _create_taxonomy_term('Social', 'event_type');
         _create_taxonomy_term('Board Meeting', 'event_type');
         _create_taxonomy_term('Executive Board Meeting', 'event_type');
