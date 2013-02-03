@@ -29,7 +29,7 @@ dependencies[] = rdf
 
 
 ; Contrib
-dependencies[] = admin
+; dependencies[] = admin
 dependencies[] = admin_menu
 dependencies[] = auto_nodetitle
 dependencies[] = boxes
@@ -63,6 +63,7 @@ dependencies[] = openidadmin
 dependencies[] = rules
 dependencies[] = simplenews
 dependencies[] = smtp
+dependencies[] = special_menu_items
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_php

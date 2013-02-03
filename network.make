@@ -42,6 +42,10 @@ projects[mimemail][version] = 1.0-alpha2
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
+;  Special Menu Items
+projects[special_menu_items][subdir] = contrib
+projects[special_menu_items][version] =  "2.0"
+
 ;  Simplenews newsletter
 projects[simplenews][subdir] = contrib
 projects[simplenews][version] =  "1.0"
