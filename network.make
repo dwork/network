@@ -24,7 +24,7 @@ projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = "1.0-beta4"
+projects[redirect][version] = "1.0-rc1"
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = "1.0-alpha4"
@@ -62,13 +62,13 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0
+projects[boxes][version] = 1.1
 
 projects[markdown][subdir] = contrib
 projects[markdown][version] = 1.0
@@ -84,7 +84,7 @@ projects[addressfield][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = "contrib"
 
-projects[ckeditor][version] = "1.9"
+projects[ckeditor][version] = "1.12"
 projects[ckeditor][subdir] = "contrib"
 
 projects[cck_phone][version] = "1.x-dev"
@@ -99,7 +99,7 @@ projects[css_injector][subdir] = "contrib"
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
-projects[defaultcontent][version] = "1.0-alpha7"
+projects[defaultcontent][version] = "1.0-alpha9"
 projects[defaultcontent][subdir] = "contrib"
 
 projects[editablefields][version] = "1.0-alpha2"
@@ -150,7 +150,7 @@ projects[geophp][subdir] = "contrib"
 ; projects[hierarchical_select][version] = "3.0-alpha5"
 ; projects[hierarchical_select][subdir] = "contrib"
 
-projects[imce][version] = "1.5"
+projects[imce][version] = "1.7"
 projects[imce][subdir] = "contrib"
 
 projects[insert_view][version] = "2.0"
@@ -179,6 +179,9 @@ projects[profile2][subdir] = "contrib"
 
 projects[quicktabs][version] = "3.4"
 projects[quicktabs][subdir] = "contrib"
+
+projects[readmorecontrol][version] = "1.0"
+projects[readmorecontrol][subdir] = "contrib"
 
 projects[references][version] = "2.0"
 projects[references][subdir] = "contrib"

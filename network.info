@@ -62,6 +62,7 @@ dependencies[] = nodereference_url
 ; dependencies[] = markdown
 dependencies[] = openid
 dependencies[] = openidadmin
+dependencies[] = readmorecontrol
 dependencies[] = rules
 dependencies[] = simplenews
 dependencies[] = smtp
