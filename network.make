@@ -261,10 +261,10 @@ projects[youtube_field][download][url] = "https://github.com/dwork/youtube_field
 projects[youtube_field][subdir] = "contrib"
 projects[youtube_field][type] = "module"
 
-; projects[image_gallery][download][type] = "git"
-; projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery.git"
-; projects[image_gallery][subdir] = "contrib"
-; projects[image_gallery][type] = "module"
+projects[image_gallery][download][type] = "git"
+projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery.git"
+projects[image_gallery][subdir] = "contrib"
+projects[image_gallery][type] = "module"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
@@ -272,8 +272,14 @@ projects[token][subdir] = "contrib"
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
 
+projects[views_send][version] = "1.0-rc3"
+projects[views_send][subdir] = "contrib"
+
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
+
+projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][subdir] = "contrib"
 
 projects[widgets][version] = "1.0-rc1"
 projects[widgets][subdir] = "contrib"
