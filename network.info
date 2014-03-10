@@ -1,3 +1,5 @@
+; network.info version 1.2
+
 name = network
 core = 7.x
 description =  Network distribution
@@ -69,7 +71,9 @@ dependencies[] = smtp
 dependencies[] = special_menu_items
 dependencies[] = strongarm
 dependencies[] = views
+dependencies[] = views_bulk_operations
 dependencies[] = views_php
+dependencies[] = views_send
 dependencies[] = views_ui
 ; dependencies[] = views_fluid_grid
 dependencies[] = views_slideshow

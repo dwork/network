@@ -1,4 +1,5 @@
 <?php
+/*  DCW  03-09-2014  Added a couple of taxonomy terms */
 
 /**
  * Implements hook_install_tasks().
@@ -60,11 +61,12 @@ function network_profile_setup() {
 	_create_taxonomy_term('Substitute', 'member_status');
 
 	// attendance 
+	_create_taxonomy_term_custom('Regular Meeting', 'attendance', 'Present');
+	_create_taxonomy_term_custom('Substitute', 'attendance', 'Substitute');
+	_create_taxonomy_term_custom('Tardy', 'attendance', 'Tardy');
+	_create_taxonomy_term_custom('Makeup', 'attendance', 'Makeup');
 	_create_taxonomy_term_custom('Absent', 'attendance', 'Absent');
 	_create_taxonomy_term_custom('Excused', 'attendance', 'Do Not Count');
-	_create_taxonomy_term_custom('Makeup', 'attendance', 'Makeup');
-	_create_taxonomy_term_custom('Regular Meeting', 'attendance', 'Present');
-	_create_taxonomy_term_custom('Substitute', 'attendance', 'Present');
 	
 	// phone/address locations
 	_create_taxonomy_term('Billing', 'location');

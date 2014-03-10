@@ -1,1 +1,10 @@
 Networking Organization Distribution
+Projects stored on GITHUB, user dwork@oip.net password crxy...
+To update a git module:
+  1) Access and download it, then reupload to the appropriate directory (e.g. club_base)
+  2) git add .
+  3) git commit -m 'some description of the mod'
+  4) git push
+This distribution includes M2M, Referals and Closed Business
+
+
