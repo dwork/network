@@ -265,7 +265,6 @@ projects[image_gallery][download][type] = "git"
 projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery.git"
 projects[image_gallery][subdir] = "contrib"
 projects[image_gallery][type] = "module"
-projects[image_gallery][version] = "1.0-beta1"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
