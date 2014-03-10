@@ -261,10 +261,10 @@ projects[youtube_field][download][url] = "https://github.com/dwork/youtube_field
 projects[youtube_field][subdir] = "contrib"
 projects[youtube_field][type] = "module"
 
-projects[image_gallery][download][type] = "git"
-projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery.git"
-projects[image_gallery][subdir] = "contrib"
-projects[image_gallery][type] = "module"
+; projects[image_gallery][download][type] = "git"
+; projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery.git"
+; projects[image_gallery][subdir] = "contrib"
+; projects[image_gallery][type] = "module"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
