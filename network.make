@@ -310,7 +310,7 @@ libraries[ckeditor][overwrite] = 1
 ; Custom
 ;--------------------
 
-includes[image_gallery] = http://github.com/dwork/image_gallery/raw/master/image_gallery.make.inc
+includes[image_gallery] = http://raw.github.com/dwork/image_gallery/master/image_gallery.make.inc
 
 ; Include levelten features
 includes[enterprise_base] = http://github.com/dwork/make-levelten/raw/master/enterprise_base.make.inc
