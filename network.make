@@ -205,7 +205,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[references][version] = "2.1"
 projects[references][subdir] = "contrib"
 
-projects[registration][version] = "1.3"
+projects[registration][version] = "1.1"
 projects[registration][subdir] = "contrib"
 
 projects[registration_views][version] = "1.0"
